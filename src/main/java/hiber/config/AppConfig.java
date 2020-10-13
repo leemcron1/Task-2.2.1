@@ -47,7 +47,6 @@ public class AppConfig {
 
         factoryBean.setHibernateProperties(props);
         factoryBean.setAnnotatedClasses(User.class,Car.class);
-       // factoryBean.setAnnotatedClasses(Car.class);
         return factoryBean;
     }
 
